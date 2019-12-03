@@ -253,7 +253,7 @@ imagelinks[120]="https://www.google.com/ncr"
 var ry=Math.floor(Math.random()*myimages.length)
 if (ry==0)
 ry=1
-document.write('<a href='+'"'+imagelinks[ry]+'"'+'><img src="'+myimages[ry]+'" border=0 width=125 height=100></a>')
+document.write('<a href='+'"'+imagelinks[ry]+'"'+'><img src="'+myimages[ry]+'" border=0 width=425 height=500></a>')
 }
 random_imglink()
 //-->
